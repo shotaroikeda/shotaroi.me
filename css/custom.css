@@ -1,0 +1,74 @@
+.wrapper {
+    background-color: #FFAC00;
+}
+.navi-bar {
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+}
+
+.navi-bar a {
+    text-decoration: normal;
+    color: black;
+}
+
+.navbar-fixed-top {
+    position: fixed;
+}
+
+.navi-bar li {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: normal;
+    text-decoration: normal;
+    border-bottom: 0px solid #FF85CB;
+}
+
+.navi-bar .selected {
+    font-weight: bold;
+    text-decoration: underline;
+    border-bottom: 3px solid #53BBF4;
+}
+
+.navi-bar .active {
+    font-weight: normal;
+    text-decoration: normal;
+    color: black;
+    border-bottom: 5px solid #53BBF4;
+}
+
+.jumbotron {
+    height: 72%;
+}
+
+.slide-panels {
+}
+
+.slide {
+    display: inline;
+    white-space: no-wrap;
+    overflow: hidden;
+}
+
+.slide-navi-index {
+    text-align: center;
+    height: 25%;
+}
+
+.slide-navi-index li {
+    font-weight: bold;
+    display: inline;
+    color: #9B6800;
+    font-size: 72px;
+    letter-spacing: 30px;
+}
+
+.slide-navi-index .active {
+    color: #FF432E;
+}
+
+
+
