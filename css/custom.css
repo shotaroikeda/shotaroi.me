@@ -1,11 +1,15 @@
 .wrapper {
     background-color: #FFAC00;
 }
+
+/* Navigation bar */
+
 .navi-bar {
     background-color: white;
     width: 100%;
     margin: 0 auto;
     float: none;
+    color: white;
 }
 
 .navi-bar a {
@@ -40,17 +44,17 @@
     border-bottom: 5px solid #53BBF4;
 }
 
+/* the main content */
+
 .jumbotron {
     height: 72%;
 }
 
-.slide-panels {
-}
-
 .slide {
-    display: inline;
     white-space: no-wrap;
     overflow: hidden;
+    list-style-type: none;
+    display: none;
 }
 
 .slide-navi-index {
@@ -64,11 +68,24 @@
     color: #9B6800;
     font-size: 72px;
     letter-spacing: 30px;
+    list-style-type: none;
 }
 
-.slide-navi-index .active {
+.slide-navi-index > li > a {
+    text-decoration: none;
+    font-weight: bold;
+    display: inline;
+    color: #9B6800;
+    font-size: 72px;
+    letter-spacing: 30px;
+    list-style-type: none;
+}
+
+.bullet-active {
     color: #FF432E;
 }
 
-
-
+.projects-page {
+    background-color: #FFAC00;
+    height: 100%;
+}
